@@ -32,10 +32,12 @@ public class CidadeAdapter extends ArrayAdapter<Cidade> {
 
         View listView = convertView;
 
+        //Veerifica se já tem o layout inflado e caso não tenha faz o inflaout
         if(listView==null){
             listView = LayoutInflater.from(getContext()).inflate(R.layout.model_cidade,parent,false);
         }
 
+        //Jogar os dados da classe no textview
         TextView textCidade = (TextView) listView.findViewById(R.id.textCidade);
         textCidade.setText(cidade.getTextCidade());
 
