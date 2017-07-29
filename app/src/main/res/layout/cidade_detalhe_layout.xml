@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="15dp"
+    android:layout_marginRight="15dp">
+
+    <TextView
+        android:id="@+id/cidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Praia Grande"
+        android:textSize="25sp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/dtChegada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="07/07/2017"
+        android:textSize="20sp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/qtdDias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="2 dias"
+        android:textColor="#000"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Hospedagem:"
+        android:textColor="#FF818080"
+        android:textSize="18sp"
+        android:paddingTop="10dp"/>
+
+    <TextView
+        android:id="@+id/localHospeadagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:text="Apartamento Lena"
+        android:textColor="#000"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Passeios:"
+        android:textColor="#FF818080"
+        android:textSize="18sp"
+        android:paddingTop="10dp"/>
+
+    <TextView
+        android:id="@+id/passeios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Andar de bicicleta"
+        android:textColor="#000"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Detalhes"
+        android:textColor="#FF818080"
+        android:textSize="18sp"
+        android:paddingTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textDetalhes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:text="Varios detalhes ds Viagem"
+        android:textColor="#000"
+        android:textSize="20sp"/>
+
+</LinearLayout>
+</ScrollView>
